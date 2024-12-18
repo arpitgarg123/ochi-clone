@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Founders_Grotesk_X: ['Founders_Grotesk_X', 'sans-serif'],
+        Neue_Montreal: ['Neue_Montreal', 'sans-serif'],
+      },
+    },
   },
   plugins: [
     function ({ addUtilities }) {
@@ -27,5 +32,4 @@ export default {
       addUtilities(newUtilities, ['responsive', 'hover']);
     },
   ],
-}
-
+};

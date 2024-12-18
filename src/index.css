@@ -13,8 +13,8 @@
 
 @font-face {
     font-family: 'Neue_Montreal';
-    src: url('fonts/Neue_Montreal') format('woff2'),
-         url('fonts/Neue_Montreal') format('woff');
+    src: url('fonts/NeueMontreal') format('woff2'),
+         url('fonts/NeueMontreal') format('woff');
     font-weight: normal;
     font-style: normal;
   }
